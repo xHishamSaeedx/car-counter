@@ -10,7 +10,7 @@ from sort import *
 cap = cv2.VideoCapture("./cars.mp4")
 
 
-model = YOLO("../yoloweights/yolov8l.pt")
+model = YOLO("./yoloweights/yolov8l.pt")
 
 classNames = ["person", "bicycle", "car", "motorbike", "aeroplane", "bus", "train", "truck", "boat",
               "traffic light", "fire hydrant", "stop sign", "parking meter", "bench", "bird", "cat",
